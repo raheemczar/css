@@ -1,1 +1,128 @@
 node_modules
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic);
+
+html
+{
+  background: url(http://www.hunterlongdesign.com/source/videoform/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#container
+{
+  width: 600px;
+  height: 340px;
+  margin: 150px auto;
+
+}
+
+#video
+{
+  width: 600px;
+  height: 340px;
+
+  box-shadow:0px 0px 30px rgba(50, 50, 50, 1);
+}
+
+#title
+{
+  position: absolute;
+  margin: 20px 0 0 15px;
+  width: 300px;
+  height: 100px;
+  z-index: 400;
+  color: white;
+  font-size: 33pt;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+#subtitle
+{
+  position: absolute;
+  margin: 68px 0 0 20px;
+  width: 300px;
+  height: 100px;
+  z-index: 400;
+  color: rgb(129, 129, 129);
+  font-size: 11pt;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#form
+{
+  position: absolute;
+  margin: 110px 0 0 15px;
+  width: 300px;
+  height: 300px;
+  z-index: 400;
+  color: white;
+
+}
+
+#form input
+{
+  WIDTH: 226px;
+  height: 30px;
+  padding: 0 0 0 10px;
+  opacity: 0.7;
+  background-color: rgb(29, 29, 29);
+  border: 1px solid rgb(90, 90, 90);
+  color: #fff;
+  margin: 0 0 15px 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  -webkit-animation-duration: 2s;
+}
+
+#form INPUT:hover
+{
+  border: 1px solid rgb(138, 138, 138);
+  -webkit-animation-duration: 2s;
+}
+
+#form TEXTAREA
+{
+  padding: 5px;
+  opacity: 0.7;
+  background-color: rgb(29, 29, 29);
+  border: 1px solid rgb(90, 90, 90);
+  color: #fff;
+  margin: 0 0 15px 0;
+  width: 226PX;
+  height: 85px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+button
+{
+  display: block;
+  background-color: rgb(49, 49, 49);
+  border: 1px solid rgb(97, 97, 97);
+  color: rgb(158, 158, 158);
+  width: 60px;
+  height: 25px;
+  opacity: 0.7;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 12pt;
+  cursor: pointer;
+  margin: -15px 0 0 0;
+}
+
+button:hover
+{
+  -webkit-animation-duration: 2s;
+  background-color: rgb(61, 61, 61);
+}
+
+video
+{
+  z-index:0;
+  width: 600px;
+  height: 340px;
+}
+
+
+
+
